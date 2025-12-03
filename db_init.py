@@ -49,7 +49,7 @@ def initialiser_bd():
     
     collection_monstres = bd['monstres']
     collection_monstres.insert_many(donnees_monstres)
-    print(f"✓ {len(donnees_monstres)} monstres ont ete initialisé ")
+    print(f" {len(donnees_monstres)} monstres ont ete initialisé ")
     
     bd['scores']
     print("scores créé")
